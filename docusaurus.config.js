@@ -96,7 +96,7 @@ const config = {
             position: 'left',
             label: 'Vision',
           },
-          {to: '/blog', label: 'News', position: 'left'},
+         
           {
             href: 'https://github.com/open-manuscript-initiative/omf',
             label: 'GitHub',
