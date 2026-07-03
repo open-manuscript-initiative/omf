@@ -87,6 +87,7 @@ const config = {
         logo: {
           alt: 'Open Manuscript Initiative',
           src: 'img/omi-navbar.svg',
+          srcDark: 'img/omi-navbar-dark.svg',
         },
         items: [
           {
