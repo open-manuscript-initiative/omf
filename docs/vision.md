@@ -1,108 +1,202 @@
 ---
 sidebar_position: 1
 title: Vision
-description: The long-term vision of the Open Manuscript Initiative.
+description: The vision and philosophy behind the Open Manuscript Initiative.
 ---
 
 # Vision
 
-## Open Standards for Sustainable Scholarly Publishing
+## Rethinking Scholarly Writing
 
-The **Open Manuscript Initiative (OMI)** is an open-source project dedicated to creating a modern, portable, and vendor-independent manuscript standard for scholarly publishing.
+For decades, scholarly manuscripts have been created using word processors originally designed for office documents.
 
-Our goal is simple:
+These applications ask authors to make typographic decisions rather than scholarly ones.
 
-> **Write naturally. Structure once. Submit anywhere.**
+Questions such as:
 
-Researchers, editors, publishers, and software developers should not be locked into proprietary workflows or platform-specific formats. Scientific manuscripts should be portable, interoperable, and future-proof.
+- Should this text be bold?
+- Which font size should be used?
+- How much spacing should follow a heading?
+- Should this paragraph be indented?
 
-OMI aims to provide an open ecosystem that enables manuscripts to move seamlessly between journals, repositories, publishing platforms, and archival systems without repeated conversion or information loss.
+have little to do with scientific communication.
 
----
+Researchers are experts in their disciplines—not in typography, layout, or publishing workflows.
 
-# Our Principles
+Yet today's publishing ecosystem still expects authors to perform tasks that properly belong to editors, designers, and publishing platforms.
 
-## The standard will always remain open.
+The result is familiar to every journal editor:
 
-The Open Manuscript Format (OMF) is, and will remain, an open standard.
-
-The specification, schemas, reference implementations, documentation, and core tools will always be freely available under open-source licenses.
-
-Anyone will be free to:
-
-- implement the standard
-- build compatible software
-- create converters
-- develop plugins
-- integrate OMF into existing publishing workflows
-
-No organization will ever need permission or a commercial license to use the standard.
+- inconsistent formatting,
+- hidden formatting artifacts,
+- incompatible templates,
+- time-consuming cleanup,
+- repeated conversions,
+- and unnecessary information loss.
 
 ---
 
-## Open ecosystem, sustainable project.
+## Meaning Before Appearance
 
-Open standards require long-term maintenance.
+The Open Manuscript Initiative proposes a different philosophy.
 
-Rather than charging for access to the specification itself, the Open Manuscript Initiative intends to sustain development through optional professional services.
+Authors should describe **what** a piece of content is—not **how** it should look.
 
-Possible services may include:
+A manuscript is not a collection of fonts and formatting.
+
+It is a structured collection of scholarly concepts.
+
+Examples include:
+
+- Title
+- Author
+- Affiliation
+- Abstract
+- Keywords
+- Section
+- Quotation
+- Figure
+- Table
+- Citation
+- Reference
+- Acknowledgement
+- Funding Statement
+- Data Availability Statement
+
+These elements define the meaning of a scholarly work.
+
+Their visual appearance should be generated automatically by the publishing platform—not manually created by the author.
+
+---
+
+## Functional Writing
+
+OMI introduces a **functional manuscript model**.
+
+Instead of formatting text, authors assign meaning.
+
+Instead of choosing fonts, they identify document elements.
+
+Instead of creating layout, they create knowledge.
+
+The manuscript becomes a semantic document rather than a formatted page.
+
+By separating meaning from presentation, a single manuscript can be published in multiple formats without rewriting or manual reformatting.
+
+---
+
+## Write Once. Publish Everywhere.
+
+One OMF manuscript can generate:
+
+- HTML
+- PDF
+- EPUB
+- JATS XML
+- Crossref XML
+- DataCite XML
+- repository packages
+- and future publishing formats
+
+without changing the original source document.
+
+Presentation becomes an output.
+
+Meaning remains the source.
+
+---
+
+## Open by Design
+
+The Open Manuscript Format (OMF) is, and will always remain, an open standard.
+
+Its specification, schemas, documentation, reference implementations, and core tools will always be freely available under open-source licenses.
+
+Anyone may:
+
+- implement the standard,
+- build compatible software,
+- create converters,
+- develop plugins,
+- integrate OMF into existing publishing workflows.
+
+No permission or commercial license will ever be required to use the standard.
+
+---
+
+## Sustainable Through Services
+
+Open standards require continuous maintenance.
+
+To ensure the long-term sustainability of the project, the Open Manuscript Initiative will offer optional professional services.
+
+These may include:
 
 - cloud-based validation
-- manuscript conversion
+- workflow automation
+- AI-assisted manuscript quality checks
 - DOI and ORCID integration
-- publishing workflow automation
-- AI-assisted manuscript checking
+- publishing services
 - repository and archival services
-- enterprise deployment and support
+- enterprise support
 - managed hosting
 
-These services will always remain optional.
+These services extend the ecosystem.
 
-The standard itself will never become proprietary.
+They never restrict access to the standard itself.
 
 ---
 
-# A Complete Publishing Ecosystem
+## Beyond a File Format
 
-The Open Manuscript Initiative is more than a file format.
+The Open Manuscript Initiative is not simply another document format.
 
-It is intended to become a complete ecosystem for modern scholarly publishing.
+It is a complete ecosystem for scholarly publishing.
 
-The long-term vision includes:
+Its long-term vision includes:
 
-- Open Manuscript Format (OMF)
-- reference schemas
+- the Open Manuscript Format (OMF)
+- open schemas
 - validation tools
-- command-line utilities
-- APIs
-- publishing plugins
-- conversion tools
-- cloud services
 - developer SDKs
+- publishing plugins
+- conversion engines
+- APIs
+- cloud services
+- reference implementations
 - documentation
-- examples and templates
+- community-driven development
 
-Together these components provide an end-to-end publishing workflow that is open, transparent, and sustainable.
-
----
-
-# Community First
-
-The Open Manuscript Initiative welcomes contributions from researchers, software developers, publishers, librarians, and open science communities worldwide.
-
-Every improvement to the standard benefits the entire scholarly publishing ecosystem.
-
-We believe openness encourages innovation, collaboration, and long-term preservation of scientific knowledge.
+Together these components create a publishing workflow that is portable, interoperable, transparent, and sustainable.
 
 ---
 
-# Our Long-Term Goal
+## Community First
 
-We envision a future where a manuscript is created once and published everywhere.
+Scientific communication belongs to the scholarly community.
 
-A researcher should be able to prepare a manuscript using open tools and then publish it through any compatible platform without rewriting, restructuring, or converting the document multiple times.
+The Open Manuscript Initiative welcomes contributions from researchers, publishers, software developers, librarians, universities, and research institutions worldwide.
 
-Whether the destination is OJS, OMP, OPS, institutional repositories, preprint servers, or future publishing platforms, the manuscript should remain portable, interoperable, and under the author's control.
+Open collaboration ensures that the standard evolves according to the needs of scholarship—not the limitations of proprietary software.
 
-The Open Manuscript Initiative exists to make that future possible.
+---
+
+## Our Goal
+
+We envision a future where researchers no longer think about formatting.
+
+They simply write.
+
+The manuscript understands its own structure.
+
+Publishing systems take responsibility for presentation.
+
+Knowledge becomes portable.
+
+Publishing becomes interoperable.
+
+Science becomes more open.
+
+> **Write naturally.  
+> Structure once.  
+> Publish everywhere.**
