@@ -15,15 +15,8 @@ export default function Home() {
             <img
               src="/img/omi-hero-light.svg"
               alt="Open Manuscript Initiative"
-              className={`${styles.logo} $
-              {styles.LogoLight}`}
+              className={styles.logo}
             />
-              <img
-              src="/img/omi-hero-dark.svg"
-                alt="Open Manuscript Initiative"
-                  className={`${styles.logo} $
-                  {styles.logoDark}`}
-/>
   </div>
 
             <h1>Open Manuscript Initiative</h1>
