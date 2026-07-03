@@ -9,3 +9,9 @@ npm run build
 rsync -av --delete build/ /var/www/vhosts/openmanuscript.org/httpdocs/
 
 echo "Deployment completed."
+echo ""
+echo "--------------------------------"
+echo "Open Manuscript Initiative"
+echo "Deployment successful"
+echo "Date: $(date)"
+echo "--------------------------------"
