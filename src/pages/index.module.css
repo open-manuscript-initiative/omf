@@ -18,10 +18,15 @@
 }
 
 .logo {
-  width: min(720px, 90vw);
-  height: auto;
-  margin: 0 auto 2rem;
+  content: url('/img/omi-hero-light.svg');
   display: block;
+  margin: 0 auto 2rem;
+  width: min(900px, 95%);
+  height: auto;
+}
+
+[data-theme='dark'] .logo {
+  content: url('/img/omi-hero-dark.svg');
 }
 
 .hero h1 {
