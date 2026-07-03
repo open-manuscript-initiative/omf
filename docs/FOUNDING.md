@@ -1,6 +1,6 @@
 # Open Manuscript Initiative
 
-Founded: July 2026
+Founded: 02 July 2026
 
 Mission
 
