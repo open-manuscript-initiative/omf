@@ -74,3 +74,24 @@
     grid-template-columns: 1fr;
   }
 }
+.logoWrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.logoDark {
+  display: none;
+}
+
+.logoLight {
+  display: block;
+}
+
+[data-theme='dark'] .logoLight {
+  display: none;
+}
+
+[data-theme='dark'] .logoDark {
+  display: block;
+}
