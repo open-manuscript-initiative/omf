@@ -10,76 +10,72 @@ export default function Home() {
   const heroLogo =
     colorMode === 'dark'
       ? '/img/omi-hero-dark.svg'
-      : '/img/omi-hero-light.svg';
+      : '/img/omi-navbar-light.svg';
 
   return (
     <Layout
       title="Open Manuscript Initiative"
       description="Open standards for portable scholarly publishing">
-
-      <main>
+      <main className={styles.page}>
         <section className={styles.hero}>
+          <div className={styles.heroInner}>
+            <img
+              src={heroLogo}
+              alt="Open Manuscript Initiative"
+              className={styles.logo}
+            />
 
-          <img
-            src={heroLogo}
-            alt="Open Manuscript Initiative"
-            className={styles.logo}
-          />
+            <h1>Open Manuscript Initiative</h1>
 
-          <h1>Open Manuscript Initiative</h1>
+            <p className={styles.kicker}>
+              Open standards for portable scholarly publishing
+            </p>
 
-          <p className={styles.kicker}>
-            Open standards for portable scholarly publishing
-          </p>
+            <p className={styles.tagline}>
+              Write naturally. Structure once. Publish everywhere.
+            </p>
 
-          <p className={styles.tagline}>
-            Write naturally. Structure once. Publish everywhere.
-          </p>
+            <div className={styles.buttons}>
+              <Link
+                className="button button--primary button--lg"
+                to="/docs/vision">
+                Explore the Vision
+              </Link>
 
-          <div className={styles.buttons}>
-            <Link
-              className="button button--primary button--lg"
-              to="/docs/vision">
-              Explore the Vision
-            </Link>
-
-            <Link
-              className="button button--secondary button--lg"
-              to="https://github.com/open-manuscript-initiative/omf">
-              GitHub
-            </Link>
+              <Link
+                className="button button--secondary button--lg"
+                to="https://github.com/open-manuscript-initiative/omf">
+                GitHub
+              </Link>
+            </div>
           </div>
-
         </section>
 
         <section className={styles.cards}>
-
-          <div>
+          <article className={styles.card}>
             <h2>Meaning Before Appearance</h2>
             <p>
               Authors describe what content means, not how it should look.
             </p>
-          </div>
+          </article>
 
-          <div>
+          <article className={styles.card}>
             <h2>Functional Manuscripts</h2>
             <p>
               Structure scholarly concepts such as titles, abstracts,
-              citations, figures and references.
+              citations, figures, tables and references.
             </p>
-          </div>
+          </article>
 
-          <div>
+          <article className={styles.card}>
             <h2>Publish Everywhere</h2>
             <p>
               Generate HTML, PDF, EPUB, JATS XML, Crossref XML and future
               publishing formats from one source.
             </p>
-          </div>
-
+          </article>
         </section>
       </main>
-
     </Layout>
   );
 }
