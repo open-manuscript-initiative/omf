@@ -1,16 +1,9 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
-import {useColorMode} from '@docusaurus/theme-common';
 import styles from './index.module.css';
 
 export default function Home() {
-  const {colorMode} = useColorMode();
-
-  const heroLogo =
-    colorMode === 'dark'
-      ? '/img/omi-hero-dark.svg'
-      : '/img/omi-navbar-light.svg';
 
   return (
     <Layout
@@ -18,12 +11,20 @@ export default function Home() {
       description="Open standards for portable scholarly publishing">
       <main className={styles.page}>
         <section className={styles.hero}>
-          <div className={styles.heroInner}>
+          <div className={styles.logoWrap}>
             <img
-              src={heroLogo}
+              src="/img/omi-hero-light.svg"
               alt="Open Manuscript Initiative"
-              className={styles.logo}
+              className={`${styles.logo} $
+              {styles.LogoLight}`}
             />
+              <img
+              src="/img/omi-hero-dark.svg"
+                alt="Open Manuscript Initiative"
+                  className={`${styles.logo} $
+                  {styles.logoDark}`}
+/>
+  </div>
 
             <h1>Open Manuscript Initiative</h1>
 
