@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Open Manuscript Initiative Logo</title>
   <desc id="desc">Open Manuscript Initiative wordmark with OM manuscript icon.</desc>
-  <rect width="1200" height="360" fill="#0F172A"/>
+  
   <g transform="translate(52,44) scale(.54)">
     <path d="M146 134 C91 134 54 177 54 239 C54 301 91 344 146 344 C199 344 236 301 236 239 C236 177 199 134 146 134Z" fill="none" stroke="#FFFFFF" stroke-width="30" stroke-linecap="round"/>
     <path d="M272 346V146L368 251L464 146V346" fill="none" stroke="#FFFFFF" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
