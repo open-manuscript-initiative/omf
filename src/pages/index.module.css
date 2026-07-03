@@ -1,36 +1,102 @@
+.page {
+  min-height: 100vh;
+}
+
 .hero {
+  padding: 5rem 1.5rem 4rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #eef7f2 100%);
+}
+
+[data-theme='dark'] .hero {
+  background: linear-gradient(135deg, #0f172a 0%, #17352f 100%);
+}
+
+.heroInner {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 4rem 2rem 5rem;
   text-align: center;
 }
 
 .logo {
+  content: url('/img/omi-hero-light.svg');
   display: block;
+  margin: 0 auto 2rem;
   width: min(900px, 95%);
-  margin: 0 auto 3rem;
   height: auto;
 }
 
+[data-theme='dark'] .logo {
+  content: url('/img/omi-hero-dark.svg');
+}
+
 .hero h1 {
-  margin-bottom: .8rem;
+  font-size: clamp(2.3rem, 5vw, 4.2rem);
+  margin: 0 0 1rem;
 }
 
 .kicker {
   font-size: 1.25rem;
-  opacity: .8;
-  margin-bottom: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 .75rem;
 }
 
 .tagline {
-  font-size: 1.35rem;
-  font-weight: 500;
-  margin-bottom: 2rem;
+  font-size: 1.15rem;
+  opacity: .85;
+  margin: 0;
 }
 
 .buttons {
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+.cards {
+  max-width: 1100px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  padding: 2rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 16px;
+  background: var(--ifm-card-background-color);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+.logoWrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.logoDark {
+  display: none;
+}
+
+.logoLight {
+  display: block;
+}
+
+[data-theme='dark'] .logoLight {
+  display: none;
+}
+
+[data-theme='dark'] .logoDark {
+  display: block;
 }
