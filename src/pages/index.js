@@ -48,7 +48,6 @@ export default function Home() {
                 to="https://github.com/open-manuscript-initiative/omf">
                 GitHub
               </Link>
-            </div>
           </div>
         </section>
 
