@@ -94,7 +94,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Documentation',
+            label: 'Vision',
           },
           {to: '/blog', label: 'News', position: 'left'},
           {
@@ -108,7 +108,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Documentation',
+            title: 'Vision',
             items: [
               {
                 label: 'Vision',
