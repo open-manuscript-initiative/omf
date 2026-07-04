@@ -80,7 +80,7 @@ const config = {
           },
          
           {
-            href: 'https://github.com/open-manuscript-initiative/omf',
+            href: 'https://github.com/open-manuscript-initiative/omi',
             label: 'GitHub',
             position: 'right',
           },
@@ -103,7 +103,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/open-manuscript-initiative/omf',
+                href: 'https://github.com/open-manuscript-initiative/omi',
               },
             ],
           },
