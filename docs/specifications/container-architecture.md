@@ -1,3 +1,13 @@
+---
+title: Container Architecture
+sidebar_position: 20
+---
+
+# OMI-SPEC-012: Container Architecture
+
+## Status
+
+**Draft**
 ```md
 ## Recommended Container Layout
 
