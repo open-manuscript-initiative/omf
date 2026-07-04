@@ -1,3 +1,8 @@
+```md
+## Recommended Container Layout
+
+The following directory structure is normative unless otherwise specified by an extension or profile.
+
 ```text
 paper.omi
 ├── META-INF/
