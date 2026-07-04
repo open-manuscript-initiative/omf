@@ -1,27 +1,22 @@
 paper.omi
-│
 ├── META-INF/
 │   ├── manifest.json
 │   ├── mimetype
 │   ├── checksums.json
-│   ├── signature.json
-│   └── provenance.json
-│
+│   └── signatures.json
 ├── manuscript/
 │   ├── document.json
 │   ├── metadata.json
-│   ├── anchors.json
-│   ├── annotations.json
-│   ├── citations.json
-│   ├── review.json
-│   └── history.json
-│
-├── assets/
+│   ├── history.json
+│   └── review.json
+├── annotations.json
+├── citations.json
+├── anchors.json
+├── provenance.json
+├── media/
 │   ├── images/
 │   ├── figures/
-│   ├── media/
+│   ├── assets/
 │   └── datasets/
-│
 ├── profiles/
-│
 └── plugins/
