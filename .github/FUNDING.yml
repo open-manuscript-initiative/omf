@@ -1,0 +1,41 @@
+# ============================================================================
+# Open Manuscript Initiative (OMI)
+# GitHub Funding Configuration
+# https://docs.github.com/en/sponsors
+# ============================================================================
+
+# GitHub Sponsors username
+github: [open-manuscript-initiative]
+
+# Patreon username
+patreon: ""
+
+# Open Collective project
+open_collective: "open-manuscript-initiative"
+
+# Ko-fi username
+ko_fi: ""
+
+# Tidelift package name
+tidelift: ""
+
+# Community Bridge project
+community_bridge: ""
+
+# Liberapay username
+liberapay: ""
+
+# IssueHunt username
+issuehunt: ""
+
+# Buy Me a Coffee username
+buy_me_a_coffee: ""
+
+# Polar username
+polar: ""
+
+# Thanks.dev username
+thanks_dev: ""
+
+# Custom funding URLs (maximum 4)
+custom: [https://openmanuscript.org/donate]
