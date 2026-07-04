@@ -3,7 +3,7 @@ title: Document Model
 sidebar_position: 10
 ---
 
-# OMI Document Model
+# OMI-SPEC-001: Document Model
 
 ## Status
 
