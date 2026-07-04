@@ -1,6 +1,6 @@
 ---
 title: Container Architecture
-sidebar_position: 20
+sidebar_position: 21
 ---
 
 # OMI-SPEC-012: Container Architecture
