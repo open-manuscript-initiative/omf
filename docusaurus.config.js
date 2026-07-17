@@ -1,12 +1,6 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,59 +8,61 @@ const config = {
   tagline: 'Write naturally. Structure once. Publish everywhere.',
   favicon: 'img/favicon.svg',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: true,
   },
 
-  // Set the production url of your site here
   url: 'https://openmanuscript.org',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // Generate and link canonical document URLs with a trailing slash
   trailingSlash: true,
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'open-manuscript-initiative', // Usually your GitHub org/user name.
-  projectName: 'omi', // Usually your repo name.
+  organizationName: 'open-manuscript-initiative',
+  projectName: 'omi',
 
   onBrokenLinks: 'throw',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'hu', 'de'],
-  localeConfigs: {
-    en: {
-      label: 'English',
+
+    localeConfigs: {
+      en: {
+        label: 'English',
+        htmlLang: 'en',
+      },
+
+      hu: {
+        label: 'Magyar',
+        htmlLang: 'hu',
+      },
+
+      de: {
+        label: 'Deutsch',
+        htmlLang: 'de',
+      },
     },
-    hu: {
-      label: 'Magyar',
-    },
-    de: {
-      label: 'Deutsch',
   },
 
   presets: [
     [
       'classic',
+
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: './sidebars.js',
         },
+
         blog: false,
-      sitemap: {
-        filename: 'sitemap.xml',
-        changefreq: 'weekly',
-        priority: 0.5,
-        lastmod: 'date',
-      },
+
+        sitemap: {
+          filename: 'sitemap.xml',
+          changefreq: 'weekly',
+          priority: 0.5,
+          lastmod: 'date',
+        },
+
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -77,18 +73,21 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/social-card.svg',
+
       colorMode: {
         respectPrefersColorScheme: true,
       },
+
       navbar: {
         title: 'Open Manuscript Initiative',
+
         logo: {
           alt: 'Open Manuscript Initiative',
           src: 'img/omi-navbar.svg',
           srcDark: 'img/omi-navbar-dark.svg',
         },
+
         items: [
           {
             type: 'docSidebar',
@@ -96,16 +95,23 @@ const config = {
             position: 'left',
             label: 'Project',
           },
-         
+
           {
             href: 'https://github.com/open-manuscript-initiative/omi',
             label: 'GitHub',
             position: 'right',
           },
+
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
         ],
       },
+
       footer: {
         style: 'dark',
+
         links: [
           {
             title: 'Project',
@@ -116,8 +122,9 @@ const config = {
               },
             ],
           },
+
           {
-            title: 'Project',
+            title: 'Community',
             items: [
               {
                 label: 'GitHub',
@@ -126,8 +133,10 @@ const config = {
             ],
           },
         ],
+
         copyright: `Copyright © ${new Date().getFullYear()} Open Manuscript Initiative Contributors. Built with Docusaurus.`,
       },
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
