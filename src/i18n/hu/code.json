@@ -1,0 +1,116 @@
+{
+  "homepage.meta.title": {
+    "message": "Open Manuscript Initiative",
+    "description": "The homepage browser title"
+  },
+  "homepage.meta.description": {
+    "message": "Nyílt szabványok a hordozható tudományos publikáláshoz",
+    "description": "The homepage meta description"
+  },
+  "homepage.logo.alt": {
+    "message": "Open Manuscript Initiative",
+    "description": "Alternative text for the OMI logo"
+  },
+  "homepage.hero.title": {
+    "message": "Open Manuscript Initiative"
+  },
+  "homepage.hero.kicker": {
+    "message": "Nyílt szabványok a hordozható tudományos publikáláshoz"
+  },
+  "homepage.hero.tagline": {
+    "message": "Írjon természetesen. Strukturáljon egyszer. Publikáljon bárhol."
+  },
+  "homepage.hero.exploreVision": {
+    "message": "Az OMI jövőképe"
+  },
+  "homepage.cards.meaning.title": {
+    "message": "A jelentés megelőzi a megjelenést"
+  },
+  "homepage.cards.meaning.description": {
+    "message": "A szerzők azt határozzák meg, mit jelent a tartalom, nem pedig azt, hogyan jelenjen meg."
+  },
+  "homepage.cards.functional.title": {
+    "message": "Funkcionális kéziratok"
+  },
+  "homepage.cards.functional.description": {
+    "message": "Strukturálja a tudományos tartalom elemeit, például a címeket, absztraktokat, hivatkozásokat, ábrákat, táblázatokat és bibliográfiai tételeket."
+  },
+  "homepage.cards.publish.title": {
+    "message": "Publikálás minden formátumban"
+  },
+  "homepage.cards.publish.description": {
+    "message": "Hozzon létre egyetlen forrásból HTML-, PDF-, EPUB-, JATS XML-, Crossref XML- és további publikációs formátumokat."
+  },
+  "homepage.why.title": {
+    "message": "Miért van szükség az Open Manuscript Initiative-re?"
+  },
+  "homepage.why.fragmentedWorkflow": {
+    "message": "A tudományos publikálás ma is egymástól elszigetelt eszközökre épül. A szerzők szövegszerkesztőben dolgoznak, a lektorok PDF-fájlokat jegyzetelnek, a szerkesztők folyóirat-kezelő rendszereket használnak, a kiadók pedig újra létrehozzák a kéziratokat XML-formátumban."
+  },
+  "homepage.why.omiSolution": {
+    "message": "Az OMI ezt a széttagolt munkafolyamatot egyetlen szemantikus kézirattal váltja fel, amely az első vázlattól a hosszú távú megőrzésig végigkíséri a kutatási eredményt."
+  },
+  "homepage.workflow.title": {
+    "message": "Hogyan működik az OMI?"
+  },
+  "homepage.workflow.write.title": {
+    "message": "Írás"
+  },
+  "homepage.workflow.write.description": {
+    "message": "Készítse el kéziratát természetes módon."
+  },
+  "homepage.workflow.structure.title": {
+    "message": "Strukturálás"
+  },
+  "homepage.workflow.structure.description": {
+    "message": "A formázás helyett rögzítse a tudományos tartalom jelentését."
+  },
+  "homepage.workflow.review.title": {
+    "message": "Lektorálás"
+  },
+  "homepage.workflow.review.description": {
+    "message": "Működjön együtt szemantikus annotációk használatával."
+  },
+  "homepage.workflow.publish.title": {
+    "message": "Publikálás"
+  },
+  "homepage.workflow.publish.description": {
+    "message": "Exportálja a kéziratot minden fontos tudományos publikációs formátumba."
+  },
+  "homepage.documentation.title": {
+    "message": "Dokumentáció"
+  },
+  "homepage.documentation.vision.title": {
+    "message": "Jövőkép"
+  },
+  "homepage.documentation.vision.description": {
+    "message": "Az OMI mögött álló szemlélet és célkitűzések."
+  },
+  "homepage.documentation.architecture.title": {
+    "message": "Architektúra"
+  },
+  "homepage.documentation.architecture.description": {
+    "message": "A rendszer felépítése és alapelvei."
+  },
+  "homepage.documentation.documentModel.title": {
+    "message": "Dokumentummodell"
+  },
+  "homepage.documentation.documentModel.description": {
+    "message": "A tudományos szövegalkotás szemantikus alapja."
+  },
+  "homepage.documentation.governance.title": {
+    "message": "Irányítás"
+  },
+  "homepage.documentation.governance.description": {
+    "message": "A projekt szervezeti és döntéshozatali rendszere."
+  },
+  "homepage.cta.title": {
+    "message": "Csatlakozzon a kezdeményezéshez"
+  },
+  "homepage.cta.description": {
+    "message": "Legyen kutató, szerkesztő, fejlesztő vagy kiadó, szakértelmével hozzájárulhat a tudományos kommunikáció jövőjének alakításához."
+  },
+  "homepage.cta.github": {
+    "message": "Közreműködés a GitHubon"
+  }
+}
